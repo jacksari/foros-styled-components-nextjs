@@ -10,13 +10,31 @@ export default createGlobalStyle`
     height: 100%;
   }
   body {
-    color: ${props => props.theme.colors.text};
+    color: ${props => props.theme.colors.secondary};
     background: ${props => props.theme.colors.background};
     font: 400 16px Josefin Sans, sans-serif;
     height: 100%;
   }
   h1 {
-    font: 100 64px Josefin Sans, sans-serif;
+    font-size: 76px;
+  }
+  h2{
+    font-size: 56px;
+  }
+  h3{
+    font-size: 40px;
+  }
+  h4{
+    font-size: 36px;
+  }
+  h5{
+    font-size: 24px;
+  }
+  h6{
+    font-size: 20px;
+  }
+  button{
+    cursor: pointer;
   }
   #__next {
   height: 100%;
