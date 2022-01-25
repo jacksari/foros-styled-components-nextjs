@@ -16,25 +16,28 @@ export default createGlobalStyle`
     height: 100%;
   }
   h1 {
-    font-size: 76px;
+    font-size: 56px;
   }
   h2{
-    font-size: 56px;
+    font-size: 48px;
   }
   h3{
     font-size: 40px;
   }
   h4{
-    font-size: 36px;
+    font-size: 32px;
   }
   h5{
     font-size: 24px;
   }
   h6{
-    font-size: 20px;
+    font-size: 18px;
   }
   button{
     cursor: pointer;
+  }
+  a{
+    text-decoration: none;
   }
   #__next {
   height: 100%;

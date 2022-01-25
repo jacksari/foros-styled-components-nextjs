@@ -7,7 +7,7 @@ interface ButtonProps  {
     icon?: string
 }
 
-export function Button (
+export function ButtonSecondary (
     {
         title = 'Sin titulo',
         onclick = ()=>{},
@@ -27,12 +27,11 @@ const Boton = styled.button`
   display: flex;
   align-items: center;
   justify-items: center;
-  padding: 0.4rem 2.5rem;
+  padding: 0.5rem 2.5rem;
   margin: 0.5rem 1rem;
-  width: auto;
-  background: transparent;
-  color: white;
-  border: 2px solid ${props => props.theme.colors.primary};
+  background: #fff;
+  color: ${props => props.theme.colors.dark};
+  border: 2px solid ${props => props.theme.colors.dark};
   border-radius: 37.6px;
   text-align: center;
   font-size: 15px;
@@ -40,6 +39,7 @@ const Boton = styled.button`
   img{
     margin-right: .5rem;
   }
+
   /* The GitHub button is a primary button
    * edit this to target it specifically! */
   ${props => props.theme.colors.gradient}

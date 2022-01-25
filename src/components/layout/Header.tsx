@@ -1,9 +1,12 @@
 import {SectionCenterNav} from "../../styles/layout/section";
 import {Button} from "../ui/Button";
+import styled from "styled-components";
+import theme from "../../styles/theme";
 
 function Header(): JSX.Element {
-  return (
-    <nav>
+  // @ts-ignore
+    return (
+    <Nav>
         <SectionCenterNav>
             <div className="logo">
                 <img src="/img/logo.png" alt=""/>
@@ -12,13 +15,21 @@ function Header(): JSX.Element {
                 <a href="#">Home</a>
                 <a href="#">Explore</a>
                 <a href="#">Contact</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Lives</a>
             </div>
             <div className="account">
-                <Button/>
+                <Button title={'Iniciar'} onclick={()=>{}}/>
             </div>
         </SectionCenterNav>
-    </nav>
+    </Nav>
    );
 }
+
+const Nav = styled.nav`
+  position: fixed;
+  width: 100%;
+  background: ${theme.colors.background};
+`
 
 export default Header;
