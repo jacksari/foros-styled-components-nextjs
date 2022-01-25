@@ -80,7 +80,7 @@ function Footer(): JSX.Element {
                 </div>
             </div>
             <div className="container-copy">
-                <p>© { new Date().getFullYear()} Desarrollado por MiCole - Todos los derechos reservados.</p>
+                <p>© { new Date().getFullYear()} Desarrollado por ForosWeb - Todos los derechos reservados.</p>
                 <div className="links">
                     <Link href={'#'}>
                         <a >Inicio</a>
