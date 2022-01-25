@@ -21,7 +21,7 @@ function LiveItem() {
             </div>
             <div className="content">
                 <div className="header">
-                    <h4>"Hamlet Contemplates ...</h4>
+                    <h4>Hamlet Contemplates ...</h4>
                     <button>BSC</button>
                 </div>
                 <div className="footer">
